@@ -33,3 +33,9 @@ sudo docker network create springcloud
 ```docker
 sudo docker run -p 8761:8761 --name eureka-server --network springcloud eureka-server:v1
 ```
+
+Si el puerto fuera dinamico se utiliza -P
+
+```docker
+sudo docker run -P ...
+```
